@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFDFB0623E85FD9003008D3 /* WLUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA8823E85FD9003008D3 /* WLUserViewController.m */; };
+		9BFDFB0723E85FD9003008D3 /* WLUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA8B23E85FD9003008D3 /* WLUserTableViewCell.m */; };
+		9BFDFB0823E85FD9003008D3 /* NSDateFormatter+WZMChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA8F23E85FD9003008D3 /* NSDateFormatter+WZMChat.m */; };
+		9BFDFB0923E85FD9003008D3 /* UIView+WZMChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9123E85FD9003008D3 /* UIView+WZMChat.m */; };
+		9BFDFB0A23E85FD9003008D3 /* WLChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9323E85FD9003008D3 /* WLChatViewController.m */; };
+		9BFDFB0B23E85FD9003008D3 /* WLChatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9623E85FD9003008D3 /* WLChatHelper.m */; };
+		9BFDFB0C23E85FD9003008D3 /* WLChatMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9723E85FD9003008D3 /* WLChatMessageManager.m */; };
+		9BFDFB0D23E85FD9003008D3 /* WLChatDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9823E85FD9003008D3 /* WLChatDBManager.m */; };
+		9BFDFB0E23E85FD9003008D3 /* WLChatSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9923E85FD9003008D3 /* WLChatSqliteManager.m */; };
+		9BFDFB0F23E85FD9003008D3 /* WLChatNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFA9A23E85FD9003008D3 /* WLChatNotificationManager.m */; };
+		9BFDFB1023E85FD9003008D3 /* WLChatUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAA623E85FD9003008D3 /* WLChatUserModel.m */; };
+		9BFDFB1123E85FD9003008D3 /* WLChatSessionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAA723E85FD9003008D3 /* WLChatSessionModel.m */; };
+		9BFDFB1223E85FD9003008D3 /* WLChatGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAA823E85FD9003008D3 /* WLChatGroupModel.m */; };
+		9BFDFB1323E85FD9003008D3 /* WLChatBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAAB23E85FD9003008D3 /* WLChatBaseModel.m */; };
+		9BFDFB1423E85FD9003008D3 /* WLChatMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAAE23E85FD9003008D3 /* WLChatMessageModel.m */; };
+		9BFDFB1523E85FD9003008D3 /* WLInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAB223E85FD9003008D3 /* WLInputView.m */; };
+		9BFDFB1623E85FD9003008D3 /* WLInputBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAB623E85FD9003008D3 /* WLInputBtn.m */; };
+		9BFDFB1723E85FD9003008D3 /* WLRecordAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAB923E85FD9003008D3 /* WLRecordAnimation.m */; };
+		9BFDFB1823E85FD9003008D3 /* WLToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFABA23E85FD9003008D3 /* WLToolView.m */; };
+		9BFDFB1923E85FD9003008D3 /* WLEmojisKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFABF23E85FD9003008D3 /* WLEmojisKeyboard.m */; };
+		9BFDFB1A23E85FD9003008D3 /* WLEmoticonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAC123E85FD9003008D3 /* WLEmoticonManager.m */; };
+		9BFDFB1B23E85FD9003008D3 /* WLHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAC523E85FD9003008D3 /* WLHorizontalLayout.m */; };
+		9BFDFB1C23E85FD9003008D3 /* WLEmojisCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAC923E85FD9003008D3 /* WLEmojisCell.m */; };
+		9BFDFB1D23E85FD9003008D3 /* WLDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFACA23E85FD9003008D3 /* WLDeleteCell.m */; };
+		9BFDFB1E23E85FD9003008D3 /* WLEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFACB23E85FD9003008D3 /* WLEmoticonCell.m */; };
+		9BFDFB1F23E85FD9003008D3 /* WLBlankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFACE23E85FD9003008D3 /* WLBlankCell.m */; };
+		9BFDFB2023E85FD9003008D3 /* WLMoreKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAD323E85FD9003008D3 /* WLMoreKeyboard.m */; };
+		9BFDFB2123E85FD9003008D3 /* WLEmojis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAD523E85FD9003008D3 /* WLEmojis.plist */; };
+		9BFDFB2223E85FD9003008D3 /* WLEmoticon1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAD623E85FD9003008D3 /* WLEmoticon1.plist */; };
+		9BFDFB2323E85FD9003008D3 /* WZMEmoticon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAD723E85FD9003008D3 /* WZMEmoticon.bundle */; };
+		9BFDFB2423E85FD9003008D3 /* WLEmoticon2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAD823E85FD9003008D3 /* WLEmoticon2.plist */; };
+		9BFDFB2523E85FD9003008D3 /* WLInputHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFADD23E85FD9003008D3 /* WLInputHelper.m */; };
+		9BFDFB2623E85FD9003008D3 /* WLInputBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFADE23E85FD9003008D3 /* WLInputBase64.m */; };
+		9BFDFB2723E85FD9003008D3 /* WLBaseInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAE023E85FD9003008D3 /* WLBaseInputView.m */; };
+		9BFDFB2823E85FD9003008D3 /* WLChatBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAE323E85FD9003008D3 /* WLChatBtn.m */; };
+		9BFDFB2923E85FD9003008D3 /* WLChatVoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAE723E85FD9003008D3 /* WLChatVoiceMessageCell.m */; };
+		9BFDFB2A23E85FD9003008D3 /* WLChatTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAE823E85FD9003008D3 /* WLChatTextMessageCell.m */; };
+		9BFDFB2B23E85FD9003008D3 /* WLChatSystemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAE923E85FD9003008D3 /* WLChatSystemCell.m */; };
+		9BFDFB2C23E85FD9003008D3 /* WLChatBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAED23E85FD9003008D3 /* WLChatBaseCell.m */; };
+		9BFDFB2D23E85FD9003008D3 /* WLChatVideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAF123E85FD9003008D3 /* WLChatVideoMessageCell.m */; };
+		9BFDFB2E23E85FD9003008D3 /* WLChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAF223E85FD9003008D3 /* WLChatMessageCell.m */; };
+		9BFDFB2F23E85FD9003008D3 /* WLChatImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAF423E85FD9003008D3 /* WLChatImageMessageCell.m */; };
+		9BFDFB3023E85FD9003008D3 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAF723E85FD9003008D3 /* preview.png */; };
+		9BFDFB3123E85FD9003008D3 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAF823E85FD9003008D3 /* setting.png */; };
+		9BFDFB3223E85FD9003008D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAFA23E85FD9003008D3 /* Assets.xcassets */; };
+		9BFDFB3323E85FD9003008D3 /* WLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAFB23E85FD9003008D3 /* WLAppDelegate.m */; };
+		9BFDFB3423E85FD9003008D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFAFC23E85FD9003008D3 /* main.m */; };
+		9BFDFB3523E85FD9003008D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BFDFAFE23E85FD9003008D3 /* Info.plist */; };
+		9BFDFB3623E85FD9003008D3 /* WLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFB0223E85FD9003008D3 /* WLSessionViewController.m */; };
+		9BFDFB3723E85FD9003008D3 /* WLSessionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDFB0423E85FD9003008D3 /* WLSessionTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		754A1F7822E2BE53005A0585 /* WLChatUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLChatUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFDFA8723E85FD9003008D3 /* WLUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUserViewController.h; sourceTree = "<group>"; };
+		9BFDFA8823E85FD9003008D3 /* WLUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUserViewController.m; sourceTree = "<group>"; };
+		9BFDFA8A23E85FD9003008D3 /* WLUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLUserTableViewCell.h; sourceTree = "<group>"; };
+		9BFDFA8B23E85FD9003008D3 /* WLUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLUserTableViewCell.m; sourceTree = "<group>"; };
+		9BFDFA8E23E85FD9003008D3 /* UIView+WZMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WZMChat.h"; sourceTree = "<group>"; };
+		9BFDFA8F23E85FD9003008D3 /* NSDateFormatter+WZMChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+WZMChat.m"; sourceTree = "<group>"; };
+		9BFDFA9023E85FD9003008D3 /* NSDateFormatter+WZMChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+WZMChat.h"; sourceTree = "<group>"; };
+		9BFDFA9123E85FD9003008D3 /* UIView+WZMChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WZMChat.m"; sourceTree = "<group>"; };
+		9BFDFA9323E85FD9003008D3 /* WLChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatViewController.m; sourceTree = "<group>"; };
+		9BFDFA9423E85FD9003008D3 /* WLChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatViewController.h; sourceTree = "<group>"; };
+		9BFDFA9623E85FD9003008D3 /* WLChatHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatHelper.m; sourceTree = "<group>"; };
+		9BFDFA9723E85FD9003008D3 /* WLChatMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatMessageManager.m; sourceTree = "<group>"; };
+		9BFDFA9823E85FD9003008D3 /* WLChatDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatDBManager.m; sourceTree = "<group>"; };
+		9BFDFA9923E85FD9003008D3 /* WLChatSqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatSqliteManager.m; sourceTree = "<group>"; };
+		9BFDFA9A23E85FD9003008D3 /* WLChatNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatNotificationManager.m; sourceTree = "<group>"; };
+		9BFDFA9B23E85FD9003008D3 /* WLChatMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatMessageManager.h; sourceTree = "<group>"; };
+		9BFDFA9C23E85FD9003008D3 /* WZChatMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZChatMacro.h; sourceTree = "<group>"; };
+		9BFDFA9D23E85FD9003008D3 /* WLChatHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatHelper.h; sourceTree = "<group>"; };
+		9BFDFA9E23E85FD9003008D3 /* WLChatSqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatSqliteManager.h; sourceTree = "<group>"; };
+		9BFDFA9F23E85FD9003008D3 /* WLChatDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatDBManager.h; sourceTree = "<group>"; };
+		9BFDFAA023E85FD9003008D3 /* WLChatNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatNotificationManager.h; sourceTree = "<group>"; };
+		9BFDFAA323E85FD9003008D3 /* WLChatSessionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatSessionModel.h; sourceTree = "<group>"; };
+		9BFDFAA423E85FD9003008D3 /* WLChatUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatUserModel.h; sourceTree = "<group>"; };
+		9BFDFAA523E85FD9003008D3 /* WLChatGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatGroupModel.h; sourceTree = "<group>"; };
+		9BFDFAA623E85FD9003008D3 /* WLChatUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatUserModel.m; sourceTree = "<group>"; };
+		9BFDFAA723E85FD9003008D3 /* WLChatSessionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatSessionModel.m; sourceTree = "<group>"; };
+		9BFDFAA823E85FD9003008D3 /* WLChatGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatGroupModel.m; sourceTree = "<group>"; };
+		9BFDFAAA23E85FD9003008D3 /* WLChatBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatBaseModel.h; sourceTree = "<group>"; };
+		9BFDFAAB23E85FD9003008D3 /* WLChatBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatBaseModel.m; sourceTree = "<group>"; };
+		9BFDFAAD23E85FD9003008D3 /* WLChatMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatMessageModel.h; sourceTree = "<group>"; };
+		9BFDFAAE23E85FD9003008D3 /* WLChatMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatMessageModel.m; sourceTree = "<group>"; };
+		9BFDFAB223E85FD9003008D3 /* WLInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInputView.m; sourceTree = "<group>"; };
+		9BFDFAB323E85FD9003008D3 /* WLInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLInputView.h; sourceTree = "<group>"; };
+		9BFDFAB623E85FD9003008D3 /* WLInputBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInputBtn.m; sourceTree = "<group>"; };
+		9BFDFAB723E85FD9003008D3 /* WLInputBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLInputBtn.h; sourceTree = "<group>"; };
+		9BFDFAB923E85FD9003008D3 /* WLRecordAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLRecordAnimation.m; sourceTree = "<group>"; };
+		9BFDFABA23E85FD9003008D3 /* WLToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLToolView.m; sourceTree = "<group>"; };
+		9BFDFABB23E85FD9003008D3 /* WLRecordAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLRecordAnimation.h; sourceTree = "<group>"; };
+		9BFDFABC23E85FD9003008D3 /* WLToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLToolView.h; sourceTree = "<group>"; };
+		9BFDFABF23E85FD9003008D3 /* WLEmojisKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLEmojisKeyboard.m; sourceTree = "<group>"; };
+		9BFDFAC123E85FD9003008D3 /* WLEmoticonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLEmoticonManager.m; sourceTree = "<group>"; };
+		9BFDFAC223E85FD9003008D3 /* WLEmoticonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLEmoticonManager.h; sourceTree = "<group>"; };
+		9BFDFAC523E85FD9003008D3 /* WLHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLHorizontalLayout.m; sourceTree = "<group>"; };
+		9BFDFAC623E85FD9003008D3 /* WLHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLHorizontalLayout.h; sourceTree = "<group>"; };
+		9BFDFAC823E85FD9003008D3 /* WLBlankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBlankCell.h; sourceTree = "<group>"; };
+		9BFDFAC923E85FD9003008D3 /* WLEmojisCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLEmojisCell.m; sourceTree = "<group>"; };
+		9BFDFACA23E85FD9003008D3 /* WLDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLDeleteCell.m; sourceTree = "<group>"; };
+		9BFDFACB23E85FD9003008D3 /* WLEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLEmoticonCell.m; sourceTree = "<group>"; };
+		9BFDFACC23E85FD9003008D3 /* WLDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLDeleteCell.h; sourceTree = "<group>"; };
+		9BFDFACD23E85FD9003008D3 /* WLEmojisCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLEmojisCell.h; sourceTree = "<group>"; };
+		9BFDFACE23E85FD9003008D3 /* WLBlankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBlankCell.m; sourceTree = "<group>"; };
+		9BFDFACF23E85FD9003008D3 /* WLEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLEmoticonCell.h; sourceTree = "<group>"; };
+		9BFDFAD023E85FD9003008D3 /* WLEmojisKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLEmojisKeyboard.h; sourceTree = "<group>"; };
+		9BFDFAD223E85FD9003008D3 /* WLMoreKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLMoreKeyboard.h; sourceTree = "<group>"; };
+		9BFDFAD323E85FD9003008D3 /* WLMoreKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLMoreKeyboard.m; sourceTree = "<group>"; };
+		9BFDFAD523E85FD9003008D3 /* WLEmojis.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = WLEmojis.plist; sourceTree = "<group>"; };
+		9BFDFAD623E85FD9003008D3 /* WLEmoticon1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WLEmoticon1.plist; sourceTree = "<group>"; };
+		9BFDFAD723E85FD9003008D3 /* WZMEmoticon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WZMEmoticon.bundle; sourceTree = "<group>"; };
+		9BFDFAD823E85FD9003008D3 /* WLEmoticon2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WLEmoticon2.plist; sourceTree = "<group>"; };
+		9BFDFADA23E85FD9003008D3 /* WLInputHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLInputHelper.h; sourceTree = "<group>"; };
+		9BFDFADB23E85FD9003008D3 /* WLInputBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLInputBase64.h; sourceTree = "<group>"; };
+		9BFDFADC23E85FD9003008D3 /* WZNInputEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZNInputEnum.h; sourceTree = "<group>"; };
+		9BFDFADD23E85FD9003008D3 /* WLInputHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInputHelper.m; sourceTree = "<group>"; };
+		9BFDFADE23E85FD9003008D3 /* WLInputBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInputBase64.m; sourceTree = "<group>"; };
+		9BFDFAE023E85FD9003008D3 /* WLBaseInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseInputView.m; sourceTree = "<group>"; };
+		9BFDFAE123E85FD9003008D3 /* WLBaseInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseInputView.h; sourceTree = "<group>"; };
+		9BFDFAE323E85FD9003008D3 /* WLChatBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatBtn.m; sourceTree = "<group>"; };
+		9BFDFAE423E85FD9003008D3 /* WLChatBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatBtn.h; sourceTree = "<group>"; };
+		9BFDFAE623E85FD9003008D3 /* WLChatVideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatVideoMessageCell.h; sourceTree = "<group>"; };
+		9BFDFAE723E85FD9003008D3 /* WLChatVoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatVoiceMessageCell.m; sourceTree = "<group>"; };
+		9BFDFAE823E85FD9003008D3 /* WLChatTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatTextMessageCell.m; sourceTree = "<group>"; };
+		9BFDFAE923E85FD9003008D3 /* WLChatSystemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatSystemCell.m; sourceTree = "<group>"; };
+		9BFDFAEA23E85FD9003008D3 /* WLChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatMessageCell.h; sourceTree = "<group>"; };
+		9BFDFAEB23E85FD9003008D3 /* WLChatImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatImageMessageCell.h; sourceTree = "<group>"; };
+		9BFDFAED23E85FD9003008D3 /* WLChatBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatBaseCell.m; sourceTree = "<group>"; };
+		9BFDFAEE23E85FD9003008D3 /* WLChatBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatBaseCell.h; sourceTree = "<group>"; };
+		9BFDFAEF23E85FD9003008D3 /* WLChatTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatTextMessageCell.h; sourceTree = "<group>"; };
+		9BFDFAF023E85FD9003008D3 /* WLChatVoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatVoiceMessageCell.h; sourceTree = "<group>"; };
+		9BFDFAF123E85FD9003008D3 /* WLChatVideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatVideoMessageCell.m; sourceTree = "<group>"; };
+		9BFDFAF223E85FD9003008D3 /* WLChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatMessageCell.m; sourceTree = "<group>"; };
+		9BFDFAF323E85FD9003008D3 /* WLChatSystemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChatSystemCell.h; sourceTree = "<group>"; };
+		9BFDFAF423E85FD9003008D3 /* WLChatImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLChatImageMessageCell.m; sourceTree = "<group>"; };
+		9BFDFAF523E85FD9003008D3 /* WLChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLChat.h; sourceTree = "<group>"; };
+		9BFDFAF723E85FD9003008D3 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		9BFDFAF823E85FD9003008D3 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		9BFDFAFA23E85FD9003008D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BFDFAFB23E85FD9003008D3 /* WLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAppDelegate.m; sourceTree = "<group>"; };
+		9BFDFAFC23E85FD9003008D3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BFDFAFD23E85FD9003008D3 /* WLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAppDelegate.h; sourceTree = "<group>"; };
+		9BFDFAFE23E85FD9003008D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFDFB0123E85FD9003008D3 /* WLSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSessionViewController.h; sourceTree = "<group>"; };
+		9BFDFB0223E85FD9003008D3 /* WLSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSessionViewController.m; sourceTree = "<group>"; };
+		9BFDFB0423E85FD9003008D3 /* WLSessionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLSessionTableViewCell.m; sourceTree = "<group>"; };
+		9BFDFB0523E85FD9003008D3 /* WLSessionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLSessionTableViewCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		754A1F7522E2BE53005A0585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		754A1F6F22E2BE53005A0585 = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8423E85FD9003008D3 /* WLChatUI */,
+				754A1F7922E2BE53005A0585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		754A1F7922E2BE53005A0585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				754A1F7822E2BE53005A0585 /* WLChatUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BFDFA8423E85FD9003008D3 /* WLChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8523E85FD9003008D3 /* Friend */,
+				9BFDFA8C23E85FD9003008D3 /* Chat */,
+				9BFDFAF623E85FD9003008D3 /* GitImage */,
+				9BFDFAF923E85FD9003008D3 /* WLAppDelegete */,
+				9BFDFAFF23E85FD9003008D3 /* Session */,
+			);
+			path = WLChatUI;
+			sourceTree = "<group>";
+		};
+		9BFDFA8523E85FD9003008D3 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8623E85FD9003008D3 /* Controller */,
+				9BFDFA8923E85FD9003008D3 /* View */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		9BFDFA8623E85FD9003008D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8723E85FD9003008D3 /* WLUserViewController.h */,
+				9BFDFA8823E85FD9003008D3 /* WLUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFDFA8923E85FD9003008D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8A23E85FD9003008D3 /* WLUserTableViewCell.h */,
+				9BFDFA8B23E85FD9003008D3 /* WLUserTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDFA8C23E85FD9003008D3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8D23E85FD9003008D3 /* Category */,
+				9BFDFA9223E85FD9003008D3 /* Controller */,
+				9BFDFA9523E85FD9003008D3 /* Common */,
+				9BFDFAA123E85FD9003008D3 /* Model */,
+				9BFDFAAF23E85FD9003008D3 /* View */,
+				9BFDFAF523E85FD9003008D3 /* WLChat.h */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		9BFDFA8D23E85FD9003008D3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA8E23E85FD9003008D3 /* UIView+WZMChat.h */,
+				9BFDFA8F23E85FD9003008D3 /* NSDateFormatter+WZMChat.m */,
+				9BFDFA9023E85FD9003008D3 /* NSDateFormatter+WZMChat.h */,
+				9BFDFA9123E85FD9003008D3 /* UIView+WZMChat.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9BFDFA9223E85FD9003008D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA9323E85FD9003008D3 /* WLChatViewController.m */,
+				9BFDFA9423E85FD9003008D3 /* WLChatViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFDFA9523E85FD9003008D3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFA9623E85FD9003008D3 /* WLChatHelper.m */,
+				9BFDFA9723E85FD9003008D3 /* WLChatMessageManager.m */,
+				9BFDFA9823E85FD9003008D3 /* WLChatDBManager.m */,
+				9BFDFA9923E85FD9003008D3 /* WLChatSqliteManager.m */,
+				9BFDFA9A23E85FD9003008D3 /* WLChatNotificationManager.m */,
+				9BFDFA9B23E85FD9003008D3 /* WLChatMessageManager.h */,
+				9BFDFA9C23E85FD9003008D3 /* WZChatMacro.h */,
+				9BFDFA9D23E85FD9003008D3 /* WLChatHelper.h */,
+				9BFDFA9E23E85FD9003008D3 /* WLChatSqliteManager.h */,
+				9BFDFA9F23E85FD9003008D3 /* WLChatDBManager.h */,
+				9BFDFAA023E85FD9003008D3 /* WLChatNotificationManager.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9BFDFAA123E85FD9003008D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAA223E85FD9003008D3 /* WLChatUserModel */,
+				9BFDFAA923E85FD9003008D3 /* WLChatBaseModel */,
+				9BFDFAAC23E85FD9003008D3 /* WLChatMessageModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BFDFAA223E85FD9003008D3 /* WLChatUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAA323E85FD9003008D3 /* WLChatSessionModel.h */,
+				9BFDFAA423E85FD9003008D3 /* WLChatUserModel.h */,
+				9BFDFAA523E85FD9003008D3 /* WLChatGroupModel.h */,
+				9BFDFAA623E85FD9003008D3 /* WLChatUserModel.m */,
+				9BFDFAA723E85FD9003008D3 /* WLChatSessionModel.m */,
+				9BFDFAA823E85FD9003008D3 /* WLChatGroupModel.m */,
+			);
+			path = WLChatUserModel;
+			sourceTree = "<group>";
+		};
+		9BFDFAA923E85FD9003008D3 /* WLChatBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAAA23E85FD9003008D3 /* WLChatBaseModel.h */,
+				9BFDFAAB23E85FD9003008D3 /* WLChatBaseModel.m */,
+			);
+			path = WLChatBaseModel;
+			sourceTree = "<group>";
+		};
+		9BFDFAAC23E85FD9003008D3 /* WLChatMessageModel */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAAD23E85FD9003008D3 /* WLChatMessageModel.h */,
+				9BFDFAAE23E85FD9003008D3 /* WLChatMessageModel.m */,
+			);
+			path = WLChatMessageModel;
+			sourceTree = "<group>";
+		};
+		9BFDFAAF23E85FD9003008D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB023E85FD9003008D3 /* InputView */,
+				9BFDFAE223E85FD9003008D3 /* Btn */,
+				9BFDFAE523E85FD9003008D3 /* MsgCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDFAB023E85FD9003008D3 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB123E85FD9003008D3 /* InputView */,
+				9BFDFADF23E85FD9003008D3 /* BaseInputView */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		9BFDFAB123E85FD9003008D3 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB223E85FD9003008D3 /* WLInputView.m */,
+				9BFDFAB323E85FD9003008D3 /* WLInputView.h */,
+				9BFDFAB423E85FD9003008D3 /* View */,
+				9BFDFAD423E85FD9003008D3 /* Resource */,
+				9BFDFAD923E85FD9003008D3 /* Helper */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		9BFDFAB423E85FD9003008D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB523E85FD9003008D3 /* Btn */,
+				9BFDFAB823E85FD9003008D3 /* ToolView */,
+				9BFDFABD23E85FD9003008D3 /* Keyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDFAB523E85FD9003008D3 /* Btn */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB623E85FD9003008D3 /* WLInputBtn.m */,
+				9BFDFAB723E85FD9003008D3 /* WLInputBtn.h */,
+			);
+			path = Btn;
+			sourceTree = "<group>";
+		};
+		9BFDFAB823E85FD9003008D3 /* ToolView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAB923E85FD9003008D3 /* WLRecordAnimation.m */,
+				9BFDFABA23E85FD9003008D3 /* WLToolView.m */,
+				9BFDFABB23E85FD9003008D3 /* WLRecordAnimation.h */,
+				9BFDFABC23E85FD9003008D3 /* WLToolView.h */,
+			);
+			path = ToolView;
+			sourceTree = "<group>";
+		};
+		9BFDFABD23E85FD9003008D3 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFABE23E85FD9003008D3 /* EmojisKeyboard */,
+				9BFDFAD123E85FD9003008D3 /* MoreKeyboard */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		9BFDFABE23E85FD9003008D3 /* EmojisKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFABF23E85FD9003008D3 /* WLEmojisKeyboard.m */,
+				9BFDFAC023E85FD9003008D3 /* EmoticonManager */,
+				9BFDFAC323E85FD9003008D3 /* View */,
+				9BFDFAD023E85FD9003008D3 /* WLEmojisKeyboard.h */,
+			);
+			path = EmojisKeyboard;
+			sourceTree = "<group>";
+		};
+		9BFDFAC023E85FD9003008D3 /* EmoticonManager */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAC123E85FD9003008D3 /* WLEmoticonManager.m */,
+				9BFDFAC223E85FD9003008D3 /* WLEmoticonManager.h */,
+			);
+			path = EmoticonManager;
+			sourceTree = "<group>";
+		};
+		9BFDFAC323E85FD9003008D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAC423E85FD9003008D3 /* Layout */,
+				9BFDFAC723E85FD9003008D3 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9BFDFAC423E85FD9003008D3 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAC523E85FD9003008D3 /* WLHorizontalLayout.m */,
+				9BFDFAC623E85FD9003008D3 /* WLHorizontalLayout.h */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		9BFDFAC723E85FD9003008D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAC823E85FD9003008D3 /* WLBlankCell.h */,
+				9BFDFAC923E85FD9003008D3 /* WLEmojisCell.m */,
+				9BFDFACA23E85FD9003008D3 /* WLDeleteCell.m */,
+				9BFDFACB23E85FD9003008D3 /* WLEmoticonCell.m */,
+				9BFDFACC23E85FD9003008D3 /* WLDeleteCell.h */,
+				9BFDFACD23E85FD9003008D3 /* WLEmojisCell.h */,
+				9BFDFACE23E85FD9003008D3 /* WLBlankCell.m */,
+				9BFDFACF23E85FD9003008D3 /* WLEmoticonCell.h */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9BFDFAD123E85FD9003008D3 /* MoreKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAD223E85FD9003008D3 /* WLMoreKeyboard.h */,
+				9BFDFAD323E85FD9003008D3 /* WLMoreKeyboard.m */,
+			);
+			path = MoreKeyboard;
+			sourceTree = "<group>";
+		};
+		9BFDFAD423E85FD9003008D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAD523E85FD9003008D3 /* WLEmojis.plist */,
+				9BFDFAD623E85FD9003008D3 /* WLEmoticon1.plist */,
+				9BFDFAD723E85FD9003008D3 /* WZMEmoticon.bundle */,
+				9BFDFAD823E85FD9003008D3 /* WLEmoticon2.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9BFDFAD923E85FD9003008D3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFADA23E85FD9003008D3 /* WLInputHelper.h */,
+				9BFDFADB23E85FD9003008D3 /* WLInputBase64.h */,
+				9BFDFADC23E85FD9003008D3 /* WZNInputEnum.h */,
+				9BFDFADD23E85FD9003008D3 /* WLInputHelper.m */,
+				9BFDFADE23E85FD9003008D3 /* WLInputBase64.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9BFDFADF23E85FD9003008D3 /* BaseInputView */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAE023E85FD9003008D3 /* WLBaseInputView.m */,
+				9BFDFAE123E85FD9003008D3 /* WLBaseInputView.h */,
+			);
+			path = BaseInputView;
+			sourceTree = "<group>";
+		};
+		9BFDFAE223E85FD9003008D3 /* Btn */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAE323E85FD9003008D3 /* WLChatBtn.m */,
+				9BFDFAE423E85FD9003008D3 /* WLChatBtn.h */,
+			);
+			path = Btn;
+			sourceTree = "<group>";
+		};
+		9BFDFAE523E85FD9003008D3 /* MsgCell */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAE623E85FD9003008D3 /* WLChatVideoMessageCell.h */,
+				9BFDFAE723E85FD9003008D3 /* WLChatVoiceMessageCell.m */,
+				9BFDFAE823E85FD9003008D3 /* WLChatTextMessageCell.m */,
+				9BFDFAE923E85FD9003008D3 /* WLChatSystemCell.m */,
+				9BFDFAEA23E85FD9003008D3 /* WLChatMessageCell.h */,
+				9BFDFAEB23E85FD9003008D3 /* WLChatImageMessageCell.h */,
+				9BFDFAEC23E85FD9003008D3 /* BaseCell */,
+				9BFDFAEF23E85FD9003008D3 /* WLChatTextMessageCell.h */,
+				9BFDFAF023E85FD9003008D3 /* WLChatVoiceMessageCell.h */,
+				9BFDFAF123E85FD9003008D3 /* WLChatVideoMessageCell.m */,
+				9BFDFAF223E85FD9003008D3 /* WLChatMessageCell.m */,
+				9BFDFAF323E85FD9003008D3 /* WLChatSystemCell.h */,
+				9BFDFAF423E85FD9003008D3 /* WLChatImageMessageCell.m */,
+			);
+			path = MsgCell;
+			sourceTree = "<group>";
+		};
+		9BFDFAEC23E85FD9003008D3 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAED23E85FD9003008D3 /* WLChatBaseCell.m */,
+				9BFDFAEE23E85FD9003008D3 /* WLChatBaseCell.h */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		9BFDFAF623E85FD9003008D3 /* GitImage */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAF723E85FD9003008D3 /* preview.png */,
+				9BFDFAF823E85FD9003008D3 /* setting.png */,
+			);
+			path = GitImage;
+			sourceTree = "<group>";
+		};
+		9BFDFAF923E85FD9003008D3 /* WLAppDelegete */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFAFA23E85FD9003008D3 /* Assets.xcassets */,
+				9BFDFAFB23E85FD9003008D3 /* WLAppDelegate.m */,
+				9BFDFAFC23E85FD9003008D3 /* main.m */,
+				9BFDFAFD23E85FD9003008D3 /* WLAppDelegate.h */,
+				9BFDFAFE23E85FD9003008D3 /* Info.plist */,
+			);
+			path = WLAppDelegete;
+			sourceTree = "<group>";
+		};
+		9BFDFAFF23E85FD9003008D3 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFB0023E85FD9003008D3 /* Controller */,
+				9BFDFB0323E85FD9003008D3 /* View */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		9BFDFB0023E85FD9003008D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFB0123E85FD9003008D3 /* WLSessionViewController.h */,
+				9BFDFB0223E85FD9003008D3 /* WLSessionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9BFDFB0323E85FD9003008D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BFDFB0423E85FD9003008D3 /* WLSessionTableViewCell.m */,
+				9BFDFB0523E85FD9003008D3 /* WLSessionTableViewCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		754A1F7722E2BE53005A0585 /* WLChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 754A1F8822E2BE54005A0585 /* Build configuration list for PBXNativeTarget "WLChatUI" */;
+			buildPhases = (
+				754A1F7422E2BE53005A0585 /* Sources */,
+				754A1F7522E2BE53005A0585 /* Frameworks */,
+				754A1F7622E2BE53005A0585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLChatUI;
+			productName = WLChatUI;
+			productReference = 754A1F7822E2BE53005A0585 /* WLChatUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		754A1F7022E2BE53005A0585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WL;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WangLei;
+				TargetAttributes = {
+					754A1F7722E2BE53005A0585 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 754A1F7322E2BE53005A0585 /* Build configuration list for PBXProject "WLChatUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 754A1F6F22E2BE53005A0585;
+			productRefGroup = 754A1F7922E2BE53005A0585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				754A1F7722E2BE53005A0585 /* WLChatUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		754A1F7622E2BE53005A0585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFDFB3023E85FD9003008D3 /* preview.png in Resources */,
+				9BFDFB2123E85FD9003008D3 /* WLEmojis.plist in Resources */,
+				9BFDFB3523E85FD9003008D3 /* Info.plist in Resources */,
+				9BFDFB3223E85FD9003008D3 /* Assets.xcassets in Resources */,
+				9BFDFB2223E85FD9003008D3 /* WLEmoticon1.plist in Resources */,
+				9BFDFB2423E85FD9003008D3 /* WLEmoticon2.plist in Resources */,
+				9BFDFB3123E85FD9003008D3 /* setting.png in Resources */,
+				9BFDFB2323E85FD9003008D3 /* WZMEmoticon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		754A1F7422E2BE53005A0585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFDFB0D23E85FD9003008D3 /* WLChatDBManager.m in Sources */,
+				9BFDFB2723E85FD9003008D3 /* WLBaseInputView.m in Sources */,
+				9BFDFB2E23E85FD9003008D3 /* WLChatMessageCell.m in Sources */,
+				9BFDFB0F23E85FD9003008D3 /* WLChatNotificationManager.m in Sources */,
+				9BFDFB0623E85FD9003008D3 /* WLUserViewController.m in Sources */,
+				9BFDFB0923E85FD9003008D3 /* UIView+WZMChat.m in Sources */,
+				9BFDFB3623E85FD9003008D3 /* WLSessionViewController.m in Sources */,
+				9BFDFB2F23E85FD9003008D3 /* WLChatImageMessageCell.m in Sources */,
+				9BFDFB2923E85FD9003008D3 /* WLChatVoiceMessageCell.m in Sources */,
+				9BFDFB2A23E85FD9003008D3 /* WLChatTextMessageCell.m in Sources */,
+				9BFDFB2023E85FD9003008D3 /* WLMoreKeyboard.m in Sources */,
+				9BFDFB1C23E85FD9003008D3 /* WLEmojisCell.m in Sources */,
+				9BFDFB1023E85FD9003008D3 /* WLChatUserModel.m in Sources */,
+				9BFDFB0723E85FD9003008D3 /* WLUserTableViewCell.m in Sources */,
+				9BFDFB0823E85FD9003008D3 /* NSDateFormatter+WZMChat.m in Sources */,
+				9BFDFB1123E85FD9003008D3 /* WLChatSessionModel.m in Sources */,
+				9BFDFB1423E85FD9003008D3 /* WLChatMessageModel.m in Sources */,
+				9BFDFB3723E85FD9003008D3 /* WLSessionTableViewCell.m in Sources */,
+				9BFDFB0C23E85FD9003008D3 /* WLChatMessageManager.m in Sources */,
+				9BFDFB2B23E85FD9003008D3 /* WLChatSystemCell.m in Sources */,
+				9BFDFB1823E85FD9003008D3 /* WLToolView.m in Sources */,
+				9BFDFB1D23E85FD9003008D3 /* WLDeleteCell.m in Sources */,
+				9BFDFB1723E85FD9003008D3 /* WLRecordAnimation.m in Sources */,
+				9BFDFB0B23E85FD9003008D3 /* WLChatHelper.m in Sources */,
+				9BFDFB1E23E85FD9003008D3 /* WLEmoticonCell.m in Sources */,
+				9BFDFB2C23E85FD9003008D3 /* WLChatBaseCell.m in Sources */,
+				9BFDFB0E23E85FD9003008D3 /* WLChatSqliteManager.m in Sources */,
+				9BFDFB2823E85FD9003008D3 /* WLChatBtn.m in Sources */,
+				9BFDFB2D23E85FD9003008D3 /* WLChatVideoMessageCell.m in Sources */,
+				9BFDFB2623E85FD9003008D3 /* WLInputBase64.m in Sources */,
+				9BFDFB1223E85FD9003008D3 /* WLChatGroupModel.m in Sources */,
+				9BFDFB1A23E85FD9003008D3 /* WLEmoticonManager.m in Sources */,
+				9BFDFB1523E85FD9003008D3 /* WLInputView.m in Sources */,
+				9BFDFB1323E85FD9003008D3 /* WLChatBaseModel.m in Sources */,
+				9BFDFB0A23E85FD9003008D3 /* WLChatViewController.m in Sources */,
+				9BFDFB3323E85FD9003008D3 /* WLAppDelegate.m in Sources */,
+				9BFDFB3423E85FD9003008D3 /* main.m in Sources */,
+				9BFDFB1B23E85FD9003008D3 /* WLHorizontalLayout.m in Sources */,
+				9BFDFB1F23E85FD9003008D3 /* WLBlankCell.m in Sources */,
+				9BFDFB1923E85FD9003008D3 /* WLEmojisKeyboard.m in Sources */,
+				9BFDFB2523E85FD9003008D3 /* WLInputHelper.m in Sources */,
+				9BFDFB1623E85FD9003008D3 /* WLInputBtn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		754A1F8622E2BE54005A0585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		754A1F8722E2BE54005A0585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		754A1F8922E2BE54005A0585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66A99Y6V4;
+				INFOPLIST_FILE = "$(SRCROOT)/WLChatUI/WLAppDelegete/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WangZhaomeng.WLChatUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-implicit-retain-self",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Debug;
+		};
+		754A1F8A22E2BE54005A0585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F66A99Y6V4;
+				INFOPLIST_FILE = "$(SRCROOT)/WLChatUI/WLAppDelegete/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WangZhaomeng.WLChatUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wno-implicit-retain-self",
+					"-Wno-deprecated-declarations",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		754A1F7322E2BE53005A0585 /* Build configuration list for PBXProject "WLChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754A1F8622E2BE54005A0585 /* Debug */,
+				754A1F8722E2BE54005A0585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		754A1F8822E2BE54005A0585 /* Build configuration list for PBXNativeTarget "WLChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				754A1F8922E2BE54005A0585 /* Debug */,
+				754A1F8A22E2BE54005A0585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 754A1F7022E2BE53005A0585 /* Project object */;
+}
