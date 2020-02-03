@@ -1,14 +1,6 @@
-**一、效果图**
+**一、集成方式**
 
-![效果图](https://github.com/wangzhaomeng/WZMChatUI/blob/master/WZMChatUI/GitImage/preview.png?raw=true)
-
-**二、集成方式**
-
-**直接导入：`#import "WZMChat.h"`**
-
-**文件夹结构如下图:**
-
-![文件夹结构](https://github.com/wangzhaomeng/WZMChatUI/blob/master/WZMChatUI/GitImage/setting.png?raw=true)
+**直接导入：`#import "WLChat.h"`**
 
 **三、数据库设计简单描述**
 
